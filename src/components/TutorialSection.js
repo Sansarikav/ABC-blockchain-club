@@ -9,6 +9,8 @@ const TutorialSection = ({ tutorials }) => {
       <div className="tutorial-cards">
         {tutorials.map((tutorial, index) => (
           <div key={index} className="tutorial-card">
+            {/* Display tutorial image */}
+            <img src={tutorial.image} alt={tutorial.name} className="tutorial-image" />
             <h3>{tutorial.name}</h3>
             <p>{tutorial.description}</p>
             <Link to={tutorial.link} className="tutorial-link">
