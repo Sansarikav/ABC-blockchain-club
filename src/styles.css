@@ -1,30 +1,28 @@
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #000100; /* Black */
-  color: #B5B6B6;            /* Gray */
+  background-color: #000100;
+  color: #B5B6B6;
   margin: 0;
   padding: 0;
 }
 
 h1, h2 {
-  color: #3EB0B4; /* Blue */
+  color: #3EB0B4;
 }
 
 /* Header Styles */
 header {
   background-color: #010000;
-  padding: 10px; /* Reduced padding */
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  width: 250px;  /* Increased the width for a bigger logo */
+  width: 250px;
   height: auto;
-  display: block;
-  margin-right: 20px; /* Add some margin to separate it from other elements */
 }
 
 nav ul {
@@ -37,7 +35,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px; /* Increased margin for better spacing between nav links */
+  margin: 0 15px;
 }
 
 nav ul li a {
@@ -51,21 +49,19 @@ nav ul li a:hover {
 
 /* Tutorial Section */
 section {
-  padding: 20px; /* Reduced padding */
-  background-color: #010000; /* Dark background */
-  color: #B5B6B6; /* Light text */
+  padding: 20px;
+  background-color: #010000;
 }
 
 section h2 {
   font-size: 2.5rem;
-  color: #3EB0B4; /* Blue */
+  color: #3EB0B4;
   text-align: center;
-  margin-bottom: 20px; /* Reduced margin */
+  margin: 6px 0 20px; /* Decreased top margin to 10px */
   border-bottom: 2px solid #3EB0B4;
   padding-bottom: 10px;
 }
 
-/* Tutorial Cards */
 .tutorial-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -75,13 +71,12 @@ section h2 {
 }
 
 .tutorial-card {
-  background-color: #010000; /* Dark black to contrast the background */
+  background-color: #010000;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
-  color: #B5B6B6; /* Light gray text for readability */
+  color: #B5B6B6;
 }
 
 .tutorial-card:hover {
@@ -90,14 +85,13 @@ section h2 {
 }
 
 .tutorial-card h3 {
-  color: #3EB0B4; /* Teal blue for title */
+  color: #3EB0B4;
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
 
 .tutorial-card p {
   font-size: 1rem;
-  color: #B5B6B6; /* Gray for description text */
 }
 
 .tutorial-image {
@@ -110,34 +104,35 @@ section h2 {
 .tutorial-card a {
   display: inline-block;
   margin-top: 15px;
-  color: #3EB0B4; /* Teal blue for links */
+  color: #3EB0B4;
   text-decoration: none;
   font-weight: bold;
   border-bottom: 2px solid transparent;
-  transition: border-color 0.3s ease;
+  padding-bottom: 2px;
 }
 
 .tutorial-card a:hover {
-  border-bottom: 2px solid #3EB0B4; /* Teal blue underline on hover */
+  border-bottom: 2px solid #3EB0B4;
 }
 
-/* Footer Styles */
 footer {
-  background-color: #010000;
-  color: #B5B6B6;
   text-align: center;
   padding: 20px;
+  background-color: #010000;
+  color: #B5B6B6;
 }
 
 .join-button {
-  background-color: #3EB0B4;
-  color: #000;
+  margin-top: 10px;
   padding: 10px 20px;
-  border: none;
+  color: #3EB0B4;
+  background-color: transparent;
+  border: 2px solid #3EB0B4;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .join-button:hover {
-  background-color: #B5B6B6;
-  color: #000;
+  background-color: #3EB0B4;
+  color: #000100;
 }
